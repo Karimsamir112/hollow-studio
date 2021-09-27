@@ -113,5 +113,5 @@ function includeJs(jsFilePath) {
     document.body.appendChild(js);
 }
 
-includeJs("/hollowStudio/script-for-all-pages/myscript.js");
+includeJs("script-for-all-pages/myscript.js");
 }) // for ready
