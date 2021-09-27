@@ -1,6 +1,9 @@
 
 
+setInterval(function(){
 document.body.style.bakcgroundColor = 'red';
+}, 100)
+
 $(function() {
     // to scroll left instead of scrolling top
     $('html, body, *').mousewheel(function(e, delta) {
