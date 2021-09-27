@@ -4,8 +4,9 @@
 $(document).ready(function() {
   var mq = window.matchMedia("(max-width: 950px)");
     if(mq.matches){
-        $('html, body, *').on("scroll", function(e, delta) {
-           $(this).trigger("mousewheel")
+        $('html, body, *').on("touchmove", function(e, delta) {
+           this.scrollLeft -= (delta);
+        e.preventDefault();
            })
     }
     else{
