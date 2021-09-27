@@ -6,6 +6,11 @@ $(document).ready(function() {
         this.scrollLeft -= (delta);
         e.preventDefault();
         });
+    
+    $('html, body, *').mousewheel(function(e, delta) {
+        this.scrollLeft -= (delta);
+        e.preventDefault();
+        }); 
 /* all body capitalize text */
 $("body").css("text-transform", "capitalize");
 //var mq = window.matchMedia("(max-width: 950px)");
