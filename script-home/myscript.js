@@ -8,7 +8,7 @@ $(document).ready(function() {
         });
 /* all body capitalize text */
 $("body").css("text-transform", "capitalize");
-var mq = window.matchMedia("(max-width: 950px)");
+//var mq = window.matchMedia("(max-width: 950px)");
  /* start show and hide inside burger */
  
    $(".show-burger").on("click", function(){
@@ -182,45 +182,6 @@ writeText();
 
 
 
-
-
-    /* start scroll to left instead scroll to top */
-//$(window).scroll(function(){
-    // check if the user get at the bottom of the page
- //   if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
-      //  alert("dflkf");
-    //    $(".all-body-expect-scrolling").css("opacity", "0.2");
-      //  $(".scroll-to-left").css("opacity", "1");
-         /* start scroll to left instead of top */
-    //    $('html, body, *').mousewheel(function(e, delta) {
-    //         this.scrollLeft -= (delta);
-    //         e.preventDefault();
-    //         });
-             /* end scroll to left instead of top */
-  //  } // if
-  //  else{
-      //  $(".all-body-expect-scrolling").css("opacity", "1");
-  //  } 
-      
-     
-//});  // scroll
-// close scrolling left  => get window scroll to top
-//$(".close-scrolling").on("click", function(){
-  
-//   window.scrollTo({ top: 0, behavior: 'smooth' });
-  /* $(".scroll-to-left").animate({
-      
-    }, 1000, function(){ */
-     
-   // }) // animate
-   
-    
-//}) // click
-/* end scroll to left instead of top */
-
-
-
-
 }) /* for ready */
 
 // chnage bg image of the bodu ehrn mouse enter on the sections
@@ -282,98 +243,6 @@ $(".scroll-to-left h1").hover(function(e){
        'border':'4px solid white'
    })
 })
-
-// $(".fixed-menu-bottom li a").hover(function(e){
-//     //e.stopPropagation();
-//    //  $(this).css("color", "red");
-//     $(".circle-cursor").css({
-//         'width': '50px',
-//         'height': '50px',
-//         'border':'4px solid white',
-//         'z-index':'2100'
-//     })
-//  })
-
-
-
-/* end change background image of the body when mouse enter on teh sections */
-
-// start changing pages 
-// $(".design-section, .inside-fixed-menu-top .design-word").on("click", function(){
-//   changePage("design.html");
-// })
-
-// $(".social-media-section, .inside-fixed-menu-top .social-media-word").on("click", function(){
-//     changePage("social-media.html");
-//   })
-
-//   $(".marketing-section, .inside-fixed-menu-top .marketing-word").on("click", function(){
-//     changePage("marketing.html");
-//   })
-
-//   $(".web-design-section, .inside-fixed-menu-top .web-design-word").on("click", function(){
-//     changePage("web-design.html");
-//   })
-
-//   $(".consultation-section, .inside-fixed-menu-top .consultation-word").on("click", function(){
-//     changePage("consultation.html");
-//   })
-
-//   $(".projects-section, .inside-fixed-menu-top .projects-word").on("click", function(){
-//     changePage("projects.html");
-//   })
-
-//   $(".about-section, .inside-fixed-menu-top .about-word").on("click", function(){
-//     changePage("about.html");
-//   })
-
- 
-
-// $(".inside-fixed-menu-top .home-word").on("click", function(){
-//     changePage("Hollow-studio.html");
-// })
-// end changing pages 
-
-// change page
-// function changePage(page) {
-//     let a= document.createElement('a');
-// a.target= '_blank';
-// a.href= page;
-// a.click();
-// }
-
-
-// start show fixed menu top
-
-// $(".show-fixed-menu-top").on("click", function(){
-//     $(".inside-fixed-menu-top").css("display", "block");
-//     $(".inside-fixed-menu-top").addClass("show-inside-fixed-menu-top");
-//     $(".inside-fixed-menu-top").removeClass("hide-inside-fixed-menu-top");
-//     $(this).fadeOut();
-//     $(".close-fixed-menu-top").fadeIn();
-
-//     $('html, body, *').mousewheel(function(e, delta) { // scroll top default
-//         this.scrollTop -= (delta);
-//         e.preventDefault();
-//         });
-// })
-
-// $(".close-fixed-menu-top").on("click", function(){
-//     $(".inside-fixed-menu-top").addClass("hide-inside-fixed-menu-top");
-//     setTimeout(() => {
-//         $(".inside-fixed-menu-top").css("display", "none");
-//         $(".inside-fixed-menu-top").removeClass("show-inside-fixed-menu-top");
-//     }, 500);
-//     //$(".inside-fixed-menu-top").removeClass("show-inside-fixed-menu-top");
-//     $(this).fadeOut();
-//     $(".show-fixed-menu-top").fadeIn();
-
-//     $('html, body, *').mousewheel(function(e, delta) { // scroll left
-//         this.scrollLeft -= (delta);
-//         e.preventDefault();
-//         });
-// })
-
 
 // end show fixed menu top
 
