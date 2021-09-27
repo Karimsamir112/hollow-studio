@@ -1,5 +1,4 @@
-$(function(){
-
+$(document).ready(function() {
 
     /* start circle cursor */
     $("body").on("mousemove", function(e){
