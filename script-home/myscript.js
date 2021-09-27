@@ -2,27 +2,22 @@
 
 
 $(document).ready(function() {
-    var mq = window.matchMedia("(max-width: 950px)");
-  /*  if(mq.matches){
+  var mq = window.matchMedia("(max-width: 950px)");
+    if(mq.matches){
         $('html, body, *').on("scroll", function (e, delta) {
 
             this.scrollLeft -= (delta);
             e.preventDefault();
            })
-    } */
- //   else{
+    }
+    else{
 //to scroll left instead of scrolling top
     $('html, body, *').mousewheel(function(e, delta) {
         this.scrollLeft -= (delta);
         e.preventDefault();
         }); 
-        
-        if("ontouchstart" in window){
-   el.addEventListener('touchstart', touchStartHandler);
-   el.addEventListener('touchmove', touchMoveHandler);
-   el.addEventListener('touchend', touchEndHandler);
-}
-  //  }
+    }
+     
      
  
       
