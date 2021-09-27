@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function() {
     // import script to all pages
 function includeJs(jsFilePath) {
     var js = document.createElement("script");
