@@ -1,7 +1,7 @@
 
 
 setInterval(function(){
-document.body.style.bakcgroundColor = 'red';
+document.body.style.backgroundColor = 'red';
 }, 100)
 
 $(function() {
