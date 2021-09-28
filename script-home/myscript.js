@@ -1,3 +1,6 @@
+
+$(document).ready(function() {
+    var mq = window.matchMedia("(max-width: 950px)");
 function scrollTo(scrolled){
 	$('.slider').css('transform','translateX(' + scrolled + 'px');
 }
@@ -6,24 +9,6 @@ $(window).bind('scroll', function(){
 	scrollTo(-scrolled);
 });
 
-$(document).ready(function() {
-    var mq = window.matchMedia("(max-width: 950px)");
-//    if(mq.matches){
-//         $('html, body, *').on("mousewheel", function (e, delta) {
-//             this.scrollLeft -= (delta);
-//             e.preventDefault();
-//            })
-       
-//     } // on
-//     else{
-// //to scroll left instead of scrolling top
-//     $('html, body, *').mousewheel(function(e, delta) {
-//         this.scrollLeft -= (delta);
-//         e.preventDefault();
-//         }); 
-//     }
-
-     
  
       
 /* all body capitalize text */
