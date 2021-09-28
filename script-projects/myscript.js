@@ -94,7 +94,7 @@ $(window).on("mousemove", function(){
         //     $(this).css("opacity", "0.1");
         // }
         $(this).on("mouseenter", function(){
-            $(".projects section div").css("opacity", "0.1");
+            $(".projects section div").css("opacity", "0.6");
             $(this).css("opacity", "1");
         })
     }) // each
